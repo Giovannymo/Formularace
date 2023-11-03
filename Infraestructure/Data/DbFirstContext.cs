@@ -18,7 +18,6 @@ public partial class DbFirstContext : DbContext
     public virtual DbSet<Driver> Drivers { get; set; }
 
     public virtual DbSet<Team> Teams { get; set; }
-    public virtual DbSet<TeamDriver> TeamDrivers { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
